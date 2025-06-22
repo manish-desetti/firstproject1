@@ -31,7 +31,7 @@ model_selection:
     class: RandomForestClassifier
     module: sklearn.ensemble
     params:
-      max_depth: 10
+      max_depth: 20
       max_features: sqrt
       n_estimators: 3
     search_param_grid:
